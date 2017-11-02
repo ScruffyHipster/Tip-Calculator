@@ -1,0 +1,29 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9E8489E1A0E1EDD664C900FBD467B12719A98838" : 0,
+    "C2AAF81C9C3CD91790BD0552CB774259A0ED66D4" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9D23AEB5-3C65-45A9-9F87-5C71F047432E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9E8489E1A0E1EDD664C900FBD467B12719A98838" : "..\/..\/Tip-Calculator",
+    "C2AAF81C9C3CD91790BD0552CB774259A0ED66D4" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "tip-calculator.app",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "tip-calculator.app.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ScruffyHipster\/Tip-Calculator.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9E8489E1A0E1EDD664C900FBD467B12719A98838"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ScruffyHipster\/Swift-.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C2AAF81C9C3CD91790BD0552CB774259A0ED66D4"
+    }
+  ]
+}
