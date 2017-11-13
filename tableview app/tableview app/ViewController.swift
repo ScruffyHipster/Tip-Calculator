@@ -13,15 +13,17 @@ class ViewController: UIViewController {
     
     var mealCost: Float?
     var tipPercent: Float = 20.0
-    var divideAmount: Float?
+    var divideAmount: Int?
     
     func finalCost() -> Float {
         return mealCost! + tipPercent / 100.00 * mealCost!
     }
     
-    func divideAmountNum() -> Float {
-        let fullCost = mealCost! + tipPercent
-        return fullCost / divideAmount!
+    func divideAmountNum() -> Double {
+        let fullCost = finalCost()
+        let fullCostInt = Double(fullCost)
+        let divideByInt = Double(divideAmount!)
+        return fullCostInt / divideByInt
     }
    
     func updateFinalMealCost() {
@@ -32,6 +34,7 @@ class ViewController: UIViewController {
         } else if (self.costTextField.text!.isEmpty) {
             self.finalCostLabel.text = ""
         } else {
+            
             self.finalCostLabel.text = "Invalid Input"
         }
     }
@@ -62,7 +65,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func divideByFieldChanged(sender: UITextField) {
-        self.divideAmount = Float(sender.text!)
+        self.divideAmount = Int(sender.text!)
         
         updateFinalMealCost()
     }

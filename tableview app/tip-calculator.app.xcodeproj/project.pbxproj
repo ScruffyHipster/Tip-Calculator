@@ -14,7 +14,6 @@
 		DB0126051FA90FCA00CFF61A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB0126031FA90FCA00CFF61A /* LaunchScreen.storyboard */; };
 		DB0126101FA90FCA00CFF61A /* tableview_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB01260F1FA90FCA00CFF61A /* tableview_appTests.swift */; };
 		DB01261B1FA90FCA00CFF61A /* tableview_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB01261A1FA90FCA00CFF61A /* tableview_appUITests.swift */; };
-		DB0126291FABB9E500CFF61A /* Tip-Calculator in Resources */ = {isa = PBXBuildFile; fileRef = DB0126281FABB9E500CFF61A /* Tip-Calculator */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +47,6 @@
 		DB0126161FA90FCA00CFF61A /* tip-calculator.app.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tip-calculator.app.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB01261A1FA90FCA00CFF61A /* tableview_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableview_appUITests.swift; sourceTree = "<group>"; };
 		DB01261C1FA90FCA00CFF61A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB0126281FABB9E500CFF61A /* Tip-Calculator */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Tip-Calculator"; path = "../../../../Tip-Calculator"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +99,6 @@
 			children = (
 				DB0125FA1FA90FCA00CFF61A /* AppDelegate.swift */,
 				DB0125FC1FA90FCA00CFF61A /* ViewController.swift */,
-				DB0126281FABB9E500CFF61A /* Tip-Calculator */,
 				DB0125FE1FA90FCA00CFF61A /* Main.storyboard */,
 				DB0126011FA90FCA00CFF61A /* Assets.xcassets */,
 				DB0126031FA90FCA00CFF61A /* LaunchScreen.storyboard */,
@@ -237,7 +234,6 @@
 			files = (
 				DB0126051FA90FCA00CFF61A /* LaunchScreen.storyboard in Resources */,
 				DB0126021FA90FCA00CFF61A /* Assets.xcassets in Resources */,
-				DB0126291FABB9E500CFF61A /* Tip-Calculator in Resources */,
 				DB0126001FA90FCA00CFF61A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
